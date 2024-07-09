@@ -1,0 +1,9 @@
+@use "global" as g;
+
+h1 {
+  color: $cBlue;
+}
+
+h2 {
+  color: child2.$cRed;
+}
