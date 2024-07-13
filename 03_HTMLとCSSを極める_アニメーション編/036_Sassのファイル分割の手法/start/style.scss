@@ -1,9 +1,9 @@
 @use "global" as g;
 
 h1 {
-  color: $cBlue;
+  color: g.$cBlue;
 }
 
 h2 {
-  color: child2.$cRed;
+  color: g.$cRed;
 }
